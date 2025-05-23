@@ -8,12 +8,12 @@
         body {
             font-family: 'Arial', sans-serif;
             line-height: 1.6;
-            color: #333;
+            color: #000000;
         }
 
         /* HEADER - Usando flexbox */
         header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #060606 0%, #0238da 100%);
             color: white;
             padding: 1rem 0;
             position: fixed;
@@ -55,7 +55,7 @@
 
         /* HERO SECTION - Usando position y flexbox */
         .hero {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #060606 0%, #0238da 100%);
             height: 100vh;
             display: flex;
             align-items: center;
@@ -92,7 +92,7 @@
         }
 
         .cta-button {
-            background: #ff6b6b;
+            background: #3a0a9a;
             color: white;
             padding: 15px 30px;
             border: none;
@@ -122,14 +122,14 @@
         /* SECCIÓN SOBRE MÍ - Usando float */
         .about {
             padding: 80px 0;
-            background: #f8f9fa;
+            background: #5749dc;
         }
 
         .about h2 {
             text-align: center;
             font-size: 2.5rem;
             margin-bottom: 3rem;
-            color: #333;
+            color: #fff6f6;
         }
 
         .about-content {
@@ -156,6 +156,7 @@
         }
 
         .about-text {
+            color: whi;
             flex: 1;
             font-size: 1.1rem;
             line-height: 1.8;
